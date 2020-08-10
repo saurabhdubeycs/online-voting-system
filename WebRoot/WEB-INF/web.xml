@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>connection.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ad_user</servlet-name>
+    <servlet-class>admin.Ad_user</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ad_voter</servlet-name>
+    <servlet-class>admin.Ad_voter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminlog</servlet-name>
+    <servlet-class>admin.Adminlog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Up_candidate</servlet-name>
+    <servlet-class>admin.Up_candidate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Up_voter</servlet-name>
+    <servlet-class>admin.Up_voter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>admin.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Voterlogin</servlet-name>
+    <servlet-class>admin.Voterlogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Vote</servlet-name>
+    <servlet-class>admin.Vote</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ad_user</servlet-name>
+    <url-pattern>/servlet/Ad_user</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ad_voter</servlet-name>
+    <url-pattern>/servlet/Ad_voter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminlog</servlet-name>
+    <url-pattern>/servlet/Adminlog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Up_candidate</servlet-name>
+    <url-pattern>/servlet/Up_candidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Up_voter</servlet-name>
+    <url-pattern>/servlet/Up_voter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Voterlogin</servlet-name>
+    <url-pattern>/servlet/Voterlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Vote</servlet-name>
+    <url-pattern>/servlet/Vote</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

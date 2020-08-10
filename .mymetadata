@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Evoting_system"
+  id="myeclipse.1499830604978"
+  context-root="/Evoting_system"
+  j2ee-spec="5.0"
+  archive="Evoting_system.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
